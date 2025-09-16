@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Iqbal Rizky Maulana — Portfolio</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a href="#" class="brand">Iqbal Rizky Maulana</a>
+
+        <!-- checkbox hack for hamburger -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-hidden="true"
+        />
+        <label
+          for="nav-toggle"
+          class="nav-toggle-label"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+        </label>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Hi, I’m <span class="name">Iqbal Rizky Maulana</span></h1>
+            <p class="subtitle">
+              Cloud Computing Enthusiast &amp; Computer Science Student at
+              Universitas Pendidikan Indonesia
+            </p>
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+          </div>
+
+          <div class="hero-photo">
+            <img src="assets/PP.jpg" alt="Foto Iqbal Rizky Maulana" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about">
+        <div class="container section-inner">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-photo">
+              <img src="assets/PP.jpg" alt="Foto Profil" />
+            </div>
+            <div class="about-text">
+              <p>
+                Saya adalah mahasiswa tingkat 2 Program Studi Ilmu Komputer di
+                Universitas Pendidikan Indonesia yang memiliki ketertarikan
+                mendalam pada bidang Cloud Computing. Rasa ingin tahu saya
+                terhadap teknologi komputasi awan mendorong saya untuk terus
+                belajar bagaimana infrastruktur digital dapat dioptimalkan agar
+                lebih efisien, scalable, dan andal. Saat ini, saya aktif
+                memperdalam pemahaman mengenai layanan cloud, manajemen server,
+                serta implementasi teknologi pendukung seperti Docker,
+                Kubernetes, dan Linux. Dengan semangat untuk terus berkembang,
+                saya berkomitmen membangun fondasi karier sebagai Cloud Engineer
+                yang mampu memberikan solusi inovatif bagi industri di era
+                transformasi digital.
+              </p>
+              <ul class="about-list">
+                <li><strong>Jurusan:</strong> Ilmu Komputer</li>
+                <li>
+                  <strong>Universitas:</strong> Universitas Pendidikan Indonesia
+                </li>
+                <li>
+                  <strong>Minat:</strong> Cloud Computing, Infrastruktur,
+                  DevOps, Cyber Security
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section projects">
+        <div class="container section-inner">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <!-- placeholder cards -->
+            <article class="project-card">
+              <img src="assets/haproxy.png" alt="Project 1" />
+              <div class="card-body">
+                <h3>Loadbalancing System</h3>
+                <p>
+                  Membangun load balancer menggunakan Haproxy dan Docker Swarm
+                  pada aplikasi berbasis website
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/learnify.png" alt="Project 2" />
+              <div class="card-body">
+                <h3>Learnify</h3>
+                <p>
+                  Ranca Bangun Learning Management System menggunakan bahasa PHP
+                  dengan framwork Codeigniter 3
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/IF.jpg" alt="Project 3" />
+              <div class="card-body">
+                <h3>Digital Artist</h3>
+                <p>
+                  Membangun Website Gallery Arts menggunakan bahasa PHP dengan
+                  Framework Laravel
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/grafana.jpg" alt="Project 4" />
+              <div class="card-body">
+                <h3>Monitoring and Alerting with Prometheus and Grafana</h3>
+                <p>
+                  Membangun sistem observability untuk aplikasi web. Prometheus
+                  mengumpulkan metrik performa, sementara Grafana menampilkan
+                  dashboard visual dan mengirim notifikasi jika terjadi anomali.
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/terraform.png" alt="Project 5" />
+              <div class="card-body">
+                <h3>Infrastructure as Code with Terraform on AWS</h3>
+                <p>
+                  Mengelola infrastruktur cloud menggunakan Terraform. Proyek
+                  ini mencakup provisioning instance EC2, database RDS, dan
+                  konfigurasi jaringan dengan sekali eksekusi kode.
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/Memcached.png" alt="Project 6" />
+              <div class="card-body">
+                <h3>In Memory Caching With Memcached</h3>
+                <p>
+                  Implementasi in-memory caching menggunakan Memcached untuk
+                  meningkatkan performa website di VPS Cloudkilat.
+                </p>
+                <a class="btn btn-outline" href="#!">View Details</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section skills">
+        <div class="container section-inner">
+          <h2 class="section-title">Tech Stack</h2>
+          <div class="skills-grid">
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/AWS.png" alt="AWS Cloud Computing Icon" />
+              </div>
+              <div class="skill-name">AWS Cloud Computing</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/docker.jpg" alt="Docker" />
+              </div>
+              <div class="skill-name">Docker</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/kubernetes.png" alt="Kubernetes" />
+              </div>
+              <div class="skill-name">Kubernetes</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/linux.png" alt="Linux" />
+              </div>
+              <div class="skill-name">Linux</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/ansible.png" alt="Ansible" />
+              </div>
+              <div class="skill-name">Ansible</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/CICD.png" alt="CI/CD" />
+              </div>
+              <div class="skill-name">CI/CD</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/cisco.png" alt="CISCO" />
+              </div>
+              <div class="skill-name">Cisco Networking</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/terraform.png" alt="Terraform" />
+              </div>
+              <div class="skill-name">Terraform</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/grafana.jpg" alt="Grafana" />
+              </div>
+              <div class="skill-name">Grafana</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/prometheus.png" alt="Prometheus" />
+              </div>
+              <div class="skill-name">Prometheus</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/firebase.png" alt="firebase" />
+              </div>
+              <div class="skill-name">Firebase</div>
+            </div>
+            <div class="skill">
+              <div class="skill-icon">
+                <img src="assets/Memcached.png" alt="Memcached" />
+              </div>
+              <div class="skill-name">Memcached</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="section certifications">
+        <div class="container section-inner">
+          <h2 class="section-title">Certifications</h2>
+          <div class="cert-grid">
+            <div class="cert-card">
+              <h4>Kubernetes Administration</h4>
+              <p>The Linux Foundation | 2025</p>
+            </div>
+            <div class="cert-card">
+              <h4>Certified Red Team Analyst (CRTA)</h4>
+              <p>CyberWarFace Labs | 2025</p>
+            </div>
+            <div class="cert-card">
+              <h4>Linux System Administration</h4>
+              <p>Adinusa | 2024</p>
+            </div>
+            <div class="cert-card">
+              <h4>Automation With Ansible</h4>
+              <p>Adinusa | 2024</p>
+            </div>
+            <div class="cert-card">
+              <h4>Docker</h4>
+              <p>Adinusa | 2024</p>
+            </div>
+            <div class="cert-card">
+              <h4>MTCNA</h4>
+              <p>Mikrotik | 2024</p>
+            </div>
+            <div class="cert-card">
+              <h4>Cloud Security</h4>
+              <p>Cisco Networking Academy | 2023</p>
+            </div>
+            <div class="cert-card">
+              <h4>DevOps</h4>
+              <p>Dicoding | 2023</p>
+            </div>
+            <div class="cert-card">
+              <h4>Linux System Administration</h4>
+              <p>ID-Networkers | 2023</p>
+            </div>
+            <div class="cert-card">
+              <h4>PCAP: Programming Essentials in Python</h4>
+              <p>Cisco Networking Academy | 2023</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section education">
+        <div class="container section-inner">
+          <h2 class="section-title">Education</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-year">2024-Now</div>
+              <div class="timeline-content">
+                <h4>Universitas Pendidikan Indonesia</h4>
+                <p>S1 Ilmu Komputer - 2024</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2021-2024</div>
+              <div class="timeline-content">
+                <h4>SMK NEGERI 1 CIMAHI</h4>
+                <p>Sistem Informatika, Jaringan, dan Aplikasi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section experience">
+        <div class="container section-inner">
+          <h2 class="section-title">Experience</h2>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-year">2023-2024</div>
+              <div class="timeline-content">
+                <h4>Cloud Engineer</h4>
+                <p>PT Infinys System Indonesia (Freelance)</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2023-2024</div>
+              <div class="timeline-content">
+                <h4>Cloud Engineer</h4>
+                <p>PT Biznet Gio Nusantara</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section contact">
+        <div class="container section-inner">
+          <h2 class="section-title">Let’s Connect!</h2>
+          <p class="contact-text">
+            Saya terbuka untuk kesempatan kolaborasi, magang, atau diskusi
+            terkait Cloud Computing.
+          </p>
+          <div class="contact-grid">
+            <a href="mailto:iqbalrizkymaulana@upi.edu" class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <span class="contact-label">iqbalrizkymaulana@upi.edu</span>
+            </a>
+
+            <a
+              href="https://instagram.com/Iqbaalz28"
+              target="_blank"
+              rel="noopener"
+              class="contact-item"
+            >
+              <span class="contact-icon">📸</span>
+              <span class="contact-label">Instagram / Iqbaalz28</span>
+            </a>
+
+            <a
+              href="https://linkedin.com/in/Iqbaalz28"
+              target="_blank"
+              rel="noopener"
+              class="contact-item"
+            >
+              <span class="contact-icon">🔗</span>
+              <span class="contact-label">LinkedIn / Iqbaalz28</span>
+            </a>
+
+            <a
+              href="https://github.com/Iqbaalz28"
+              target="_blank"
+              rel="noopener"
+              class="contact-item"
+            >
+              <span class="contact-icon">🐙</span>
+              <span class="contact-label">GitHub / Iqbaalz28</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © <span id="year">2025</span> Iqbal Rizky Maulana. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
