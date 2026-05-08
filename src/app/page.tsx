@@ -101,7 +101,7 @@ export default function Home() {
                     <div className="w-full md:w-1/3 relative p-4 retro-border retro-shadow bg-retro-bg -rotate-2">
                       <div className="relative aspect-square border-2 border-retro-red overflow-hidden grayscale hover:grayscale-0 transition-all duration-300">
                         <Image
-                          src="/assets/PP2.jpg"
+                          src="/assets/PP2.jpeg"
                           alt="Profile Picture"
                           fill
                           unoptimized
